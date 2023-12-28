@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chahat - Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5558bc8b45.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <nav>
+            <img src="./Images/cb_logo.PNG" alt="logo" class="logo">
+            <ul id="side-menu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="container">
+
+            <div class="header-text">
+                Hi! My name is <span class="purple">Chahat</span>
+                <div>I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <div class="button1">
+                        <a href="https://docs.google.com/document/d/1YxKlB3LAZhQ4Dou3_c_VqIXSsuR3Lt3gKLbhZCq3Oz0/edit"
+                            class="btn" download>Download Resume</a>
+                        <a href="https://github.com/ChahatBeniwal/" class="btn">Visit Github</a>
+                    </div>
+                    <div class="button2">
+                        <a href="https://m.starmakerstudios.com/d/profileinfo?app_name=sm&cardKey=Profile&color=FE3A6A&from_sid=100013560219&is_convert=true&pid=Profire_share_B&shareTime=1703766470&share_type=whatsapp&showBar=1&showNavigation=true&type=party&userId=281474984923556"
+                            class="btn">StarMaker Singing Page</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Web Developer', 'Singer', 'Learner'],
+                typeSpeed: 50,
+                loop: true,
+            });
+        </script>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="./Images/idpic.jpg" alt="">
+                </div>
+                <div class="col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hi! I am Chahat Beniwal, an 18-year-old, and a second-year UG student at IIT Gandhinagar. I am
+                        passionate about learning new things, singing, and exploring. I enjoy meeting new people and
+                        gaining different perspectives.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li>Frontend Web Development</li>
+                            <li>Data Narrative</li>
+                            <li>Graphic Design on Canva</li>
+                            <li>Singing</li>
+                            <li>Teamwork</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-2023</span><br>Marketing Executive @ Blithchron'23</li>
+                            <li><span>2023-2024</span><br>Team Member @ Nyasa IIT GN</li>
+                            <li><span>2023-2024</span><br>Volunteer @ Center for Sustainable Development IIT GN</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-2026</span><br>BTech. Civil Engg. @IIT Gandhinagar</li>
+                            <li><span>2021-2022</span><br>High School(CBSE: 94.8%)</li>
+                            <li><span>2019-2020</span><br>X Grade(CBSE: 94.2%)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <h2>Frontend Web Developer</h2>
+                    <p>
+                        As a Frontend Web Developer, I specialize in crafting interactive and visually appealing user
+                        interfaces. I have hands-on experience with HTML, CSS, and JavaScript, ensuring seamless user
+                        experiences and responsive designs. I am passionate about staying up-to-date with the latest web
+                        development trends and technologies.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Data Narrative</h2>
+                    <p>
+                        Data Narrative involves storytelling through data visualization. I excel in transforming complex
+                        data sets into compelling narratives that are easy to understand. By utilizing tools like
+                        Python, I create data-driven stories that convey valuable insights. I believe in the power of
+                        data to inform and inspire decision-making.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Graphic Design: Canva</h2>
+                    <p>
+                        Graphic design on Canva allows me to unleash my creativity in designing stunning visuals for
+                        various purposes. From social media graphics to presentations, I leverage Canva's intuitive
+                        platform to craft engaging designs. I have a keen eye for aesthetics and strive to deliver
+                        visually captivating content that aligns with the desired message.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>chahatbeniwal04@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 7011102009</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/chahat.beniwal/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/chahat-beniwal-b11340260/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <p>Click <a
+                            href="https://docs.google.com/forms/d/1BiYLWF-AEE4-0KVuIokrEI5brPmn3vydleDLzjlNGRc/edit#settings">here</a>
+                        to contact me</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &commat; Chahat Beniwal</p>
+
+    </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                if (tablink.classList.contains("active-link")) {
+                    tablink.classList.remove("active-link");
+                }
+            }
+
+            for (tabcontent of tabcontents) {
+                if (tabcontent.classList.contains("active-tab")) {
+                    tabcontent.classList.remove("active-tab");
+                }
+            }
+
+            var selectedTab = document.getElementById(tabname);
+
+            if (!selectedTab.classList.contains("active-tab")) {
+                event.currentTarget.classList.add("active-link");
+                selectedTab.classList.add("active-tab");
+            }
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("side-menu");
+
+        function toggleMenu() {
+            if (sidemenu.style.right === '0px') {
+                closemenu();
+            } else {
+                openmenu();
+            }
+        }
+
+        function openmenu() {
+            sidemenu.style.right = '0';
+        }
+
+        function closemenu() {
+            sidemenu.style.right = '-200px';
+        }
+    </script>
+
+
+</body>
+
+</html>
